@@ -1,0 +1,40 @@
+/*  THINGS THAT SHOW ON WEB*/
+@media (min-width: 1024px) {
+  .web-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+/*  THINGS THAT SHOW ON MOBILE*/
+@media (max-width: 1024px) {
+  .web-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .mobile-menu-btn {
+    display: inline-block;
+    background-color: rgba(0,0,0,0);
+    border-radius: 5%;
+    border: 1px solid white;
+    width: 30%;
+    margin: 2vw;
+    margin-top: 5vw;
+    font-size: 1.5vh;
+    transition: background-color 0.5s ease;
+
+
+  }
+
+  .mobile-menu-btn:hover {
+    background-color: #FFF;
+  }
+
+}

@@ -30,10 +30,12 @@ $(function() {
         if(bodyScroll > 300){
 
             navbar.addClass("nav-scroll");
+						$("#logoBox").attr('src', 'img/logo-bk.png')
 
         }else{
 
             navbar.removeClass("nav-scroll");
+						$("#logoBox").attr('src', 'img/logo-wh.png')
         }
     });
 
@@ -61,7 +63,7 @@ $(function() {
 
     // typejs
     $('.header .caption h3').typed({
-        strings: ["Web Developer", "UI/UX  Designer", "Photography"],
+        strings: 	["Student.", "Entrepreneur.", "Realtor.", "Developer.", "Leader.", "Brother.", "Dancer.", "Gamer.", "and more!"],
         loop: true,
         startDelay: 1000,
         backDelay: 1000,
@@ -96,9 +98,9 @@ $(function() {
    	// progress bar
     wind.on('scroll', function () {
         $(".skills-progress span").each(function () {
-            var bottom_of_object = 
+            var bottom_of_object =
             $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = 
+            var bottom_of_window =
             $(window).scrollTop() + $(window).height();
             var myVal = $(this).attr('data-value');
             if(bottom_of_window > bottom_of_object) {
@@ -159,7 +161,7 @@ $(function() {
         $(".social").toggleClass("social-active");
 
     });
-    
+
 
 });
 
@@ -197,4 +199,3 @@ $(window).on("load",function (){
     });
 
 });
-
