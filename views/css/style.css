@@ -324,7 +324,7 @@ p {
   content: "";
   position: absolute;
   top: -20px;
-  left: 20px;
+  left: -20px;
   bottom: -20px;
   right: -20px;
   border: 7px solid rgba(0, 0, 0, 0.05);
