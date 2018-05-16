@@ -60,3 +60,7 @@
 #pr-btn:hover {
   background-image: url(../img/btn-imgs/btn-prof-bk.png);
 }
+
+.custom-gray-button:hover {
+  background: #121212 !important;
+}
