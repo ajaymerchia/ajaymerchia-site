@@ -230,6 +230,10 @@ p {
   background-image: url(../img/bg.jpg);
   background-attachment: fixed;
   background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-position: center;
 }
 .header:after {
