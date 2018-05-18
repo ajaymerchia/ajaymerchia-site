@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^4.13.1",
-    "express": "*",
-    "body-parser": "*",
     "bcrypt": "^0.8.5",
-    "ejs": "^2.4.1"
+    "body-parser": "*",
+    "ejs": "^2.4.1",
+    "express": "*",
+    "firebase": "^4.13.1",
+    "ionicons": "^4.1.1"
   }
 }
