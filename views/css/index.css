@@ -1,6 +1,12 @@
 #home {
   background-image: url(../img/bg.jpg);
 }
+.clients {
+  background-image: url(../img/2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
 
 .roundbtn:hover {
   background-color: #FFF;

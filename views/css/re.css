@@ -15,7 +15,12 @@
   z-index: 9;
 }
 
-
+.clients {
+  background-image: url(../img/re_generic.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
 
 /*mouse*/
 .mouse-icon {
@@ -31,7 +36,7 @@
   left: 0;
   right: 0;
   bottom: 30px;
-  z-index: 100;
+  z-index: 8;
 }
 
 .mouse-icon .scroll {
@@ -69,4 +74,9 @@
   0%   { top:2px;  opacity: 0;}
   30%  { top:8px; opacity: 1;}
   100% { top:16px; opacity: 0;}
+}
+
+
+.custom-gray-button:hover {
+  background: #121212 !important;
 }
