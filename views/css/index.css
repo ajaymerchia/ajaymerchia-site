@@ -1,5 +1,5 @@
-#logoBox {
-  width: 5vw;
+#home {
+  background-image: url(../img/bg.jpg);
 }
 
 .roundbtn:hover {
@@ -32,30 +32,36 @@
 
 #re-btn {
   background-image: url(../img/btn-imgs/btn-re-wh.png);
+  transition: 0.5s ease;
+
 }
 #re-btn:hover {
   background-image: url(../img/btn-imgs/btn-re-bk.png);
 }
 #en-btn {
   background-image: url(../img/btn-imgs/btn-entre-wh.png);
+  transition: 0.5s ease;
 }
 #en-btn:hover {
   background-image: url(../img/btn-imgs/btn-entre-bk.png);
 }
 #fa-btn {
   background-image: url(../img/btn-imgs/btn-fine-wh.png);
+  transition: 0.5s ease;
 }
 #fa-btn:hover {
   background-image: url(../img/btn-imgs/btn-fine-bk.png);
 }
 #de-btn {
   background-image: url(../img/btn-imgs/btn-dev-wh.png);
+  transition: 0.5s ease;
 }
 #de-btn:hover {
   background-image: url(../img/btn-imgs/btn-dev-bk.png);
 }
 #pr-btn {
   background-image: url(../img/btn-imgs/btn-prof-wh.png);
+  transition: 0.5s ease;
 }
 #pr-btn:hover {
   background-image: url(../img/btn-imgs/btn-prof-bk.png);
