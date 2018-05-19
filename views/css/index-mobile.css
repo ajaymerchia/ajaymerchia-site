@@ -19,12 +19,12 @@
     display: block;
   }
 
-  #home {
+  /* #home {
     background-size: auto 100vh;
     background-repeat: no-repeat;
     background-image: url(../img/bg.jpg);
 
-  }
+  } */
 
   .mobile-menu-btn {
     display: inline-block;
