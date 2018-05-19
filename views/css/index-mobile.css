@@ -22,7 +22,7 @@
   #home {
     background-size: auto 100vh;
     background-image: url(../img/bg.jpg);
-    background-position: bottom;
+    background-position: 50% 0%;
   }
 
   .mobile-menu-btn {
