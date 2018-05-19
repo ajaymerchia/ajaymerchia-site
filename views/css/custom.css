@@ -14,6 +14,10 @@
   margin: 0px !important;
 }
 
+.sm-margin{
+  margin: 5%;
+}
+
 .hidden {
   display: none;
 }
@@ -42,6 +46,20 @@
 
 .shadow-card {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.hover-card {
+  border: 1px solid black;
+  transition: background-color ease .5s;
+  transition: box-shadow ease .5s
+
+}
+
+.hover-card:hover{
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff5e0;
+  cursor: pointer;
+
 }
 
 .white-fuzz {
