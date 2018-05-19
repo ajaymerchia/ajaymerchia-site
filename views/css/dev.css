@@ -1,12 +1,25 @@
 #home {
-  background-image: url(../img/entre_main.jpg);
+  background-image: url(../img/dev_main.jpg);
 }
 
 .v-custom2 {
   position: absolute;
   width: 100%;
+  top: 45%;
+  left: -28%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  z-index: 9;
+}
+
+.v-custom3 {
+  position: absolute;
+  width: 100%;
   top: 50%;
-  left: 0%;
+  left: 25%;
   -webkit-transform: translate(0%, -50%);
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
@@ -94,4 +107,83 @@
 .botn:hover {
   background: #fff;
   color: #d6b161;
+}
+
+.card {
+  border: 1px solid #000;
+}
+
+.private-proj {
+  cursor: not-allowed;
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid #d6b161;
+  border-radius: 30px;
+  color: #d6b161;
+  padding: 10px 25px;
+}
+
+.terminal {
+  font-family: 'PT mono', sans-serif;
+  padding: 0px;
+  padding-bottom: 4%;
+  margin: auto;
+  right: 0;
+  left: 0;
+  width: 100%;
+  color: #000;
+  background: #000;
+  border-radius: 5px;
+}
+.header2 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
+  background: #ddd;
+  border-radius: 5px 5px 0 0;
+  z-index: 100;
+}
+.circle {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  z-index: 100;
+}
+.circle:nth-child(1) {
+  left: 20px;
+  background: #ff5f57;
+}
+.circle:nth-child(2) {
+  left: 39px;
+  background: #ffbd2e;
+}
+.circle:nth-child(3) {
+  left: 58px;
+  background: #2ace42;
+}
+.terminal span {
+  position: absolute;
+  top: 93px;
+  left: 15px;
+}
+.terminal textarea {
+  margin: 42px 30px;
+  width: 88%;
+  font-family: 'PT mono', sans-serif;
+  outline: 0;
+  border: none;
+  font-size: 16px;
+  background: #fff;
+  resize: none;
+}
+
+.terminal p {
+  color: white
 }
