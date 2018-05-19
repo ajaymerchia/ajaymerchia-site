@@ -19,6 +19,11 @@
     display: block;
   }
 
+  #home {
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+  }
+
   .mobile-menu-btn {
     display: inline-block;
     background-color: rgba(0,0,0,0);
