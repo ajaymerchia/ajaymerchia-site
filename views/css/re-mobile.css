@@ -18,6 +18,12 @@
   .mobile-only {
     display: block;
   }
+  #home {
+    background-size: auto 100vh;
+    background-image: url(../img/bg.jpg);
+    background-position: bottom;
+  }
+
 
   .v-custom2 {
     position: absolute;
