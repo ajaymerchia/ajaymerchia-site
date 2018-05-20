@@ -1,7 +1,7 @@
 <% include partials/header %>
 
-<link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/index-mobile.css">
+<link rel="stylesheet" href="css/prof.css">
+<link rel="stylesheet" href="css/prof-mobile.css">
 		<!-- ====== Header ======  -->
 		<section id="home" class="header" data-scroll-index="0">
 			<div class="container">
@@ -13,40 +13,28 @@
 								<h3></h3>
 							</div>
 
-							<div class="web-only">
-								<div class="row top-space" style="">
-									<button class="roundbtn" id="re-btn"></button>
-									<button class="roundbtn" id="en-btn"></button>
-									<button class="roundbtn" id="fa-btn"></button>
-								</div>
-								<div class="row" style="">
-									<p class="menu-labels">Real Estate</p>
-									<p class="menu-labels">Entrepreneurship</p>
-									<p class="menu-labels">Fine Arts</p>
-								</div>
 
+							<div class="resume col-md-6 col-md-offset-3 container" style="border: none">
+								<div class="centered top-space-lg" style="padding: 1vw;">
+									<div class="tabs-icon no-margin">
+										<ul>
+											<li id="tab-3" class="custom-gray-button" style="border-right: 1px solid white">
+												<h6 class="sm-title" style="width: 15vw"><i class="icon ion-android-download"></i> Download Resume</h6>
+											</li>
+											<li id="tab-4" class="custom-gray-button" style="border-left: 1px solid white">
+												<h6 class="sm-title" style="width: 15vw;">Download C.V <i class="icon ion-android-download"></i></h6>
 
-								<div class="row" style="">
-									<button class="roundbtn" id="de-btn"></button>
-									<button class="roundbtn" id="pr-btn"></button>
-								</div>
-								<div class="row bottom-space" style="">
-									<p class="menu-labels">Development</p>
-									<p class="menu-labels">Professional</p>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
-
-							<div class="mobile-only padding-lg v-bottom" style="">
-								<button class="btn btn-outline-secondary mobile-menu-btn"> Real Estate</button>
-								<button class="btn btn-outline-secondary mobile-menu-btn"> Entrepreneurship</button>
-								<button class="btn btn-outline-secondary mobile-menu-btn"> Fine Arts</button>
-								<button class="btn btn-outline-secondary mobile-menu-btn"> Development</button>
-								<button class="btn btn-outline-secondary mobile-menu-btn"> Professional</button>
-							</div>
-
-
 
 						</div>
+					</div>
+
+					<div class="mouse-icon margin-20">
+								<div class="scroll"></div>
 					</div>
 				</div>
 			</div>
@@ -54,272 +42,387 @@
 		</section>
 		<!-- ====== End Header ======  -->
 
-		<!-- ====== Hero ======  -->
-		<section id="about" class="hero section-padding" data-scroll-index="1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="hero-img">
-							<img src="img/headshot.png" alt="Me">
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-7 mb-100">
-						<div class="hero-content">
-							<h4 class="head-left">A Quick Intro</h4>
-							<p>
-								Hi there! I'm Ajay Raj Merchia. I'm a student at the University of California, Berkeley,
-								studying both Computer Science as well as Business Administration. Over the last few years,
-								I've become involved in both real estate and the start-up community. You can dive into my
-								history of both spaces on this site. This site is not just a resume/CV site, it's a portal
-								to my life. So come on over, jump in, and get to know who I am.
-							</p>
-
-							<div class="info">
-								<div class="row">
-									<div class="col-md-4 col-sm-6">
-										<h5><span><i class="icon ion-person"></i></span>Ajay Raj Merchia</h5>
-									</div>
-
-									<div class="col-md-4 col-sm-6">
-										<h5><span><i class="icon ion-email"></i></span><a href="mailto: ajaymerchia@gmail.com"> AjayMerchia@Gmail.com</a></h5>
-									</div>
-									<div class="col-md-4 col-sm-6">
-										<h5><span><i class="icon ion-android-call"></i></span><a href="tel: 4089166134">408.916.6134</a></h5>
-									</div>
-									<div class="clear-fix"></div>
-								</div>
-							</div>
-
-							<div class="social-icon">
-								<a href="http://facebook.com/merchia">
-									<span><i class="fa fa-facebook" style="" aria-hidden="true"></i></span>
-								</a>
-								<a href="https://www.linkedin.com/in/ajayrajmerchia/">
-									<span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-								</a>
-								<a href="https://github.com/ajaymerchia">
-									<span><i class="fa fa-github" aria-hidden="true"></i></span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="clear-fix"></div>
-		</section>
-		<!-- ====== End Hero ======  -->
-
 		<!-- ====== Resume ======  -->
 		<section id="resume" class="resume section-padding" data-scroll-index="2">
+
+
 			<div class="container">
 
 				<div class="section-head">
 					<h3>Where I've Been</h3>
+					<i><p>Check out what types of things I've been up to!</p></i>
 				</div>
 
+				<!-- Note, when adding new prospects, simply move the <div> tags to figure it out -->
 				<div class="row">
-					<div class="col-md-offset-2 col-md-8">
-						<div class="tabs">
-								<!-- tabs-icon -->
-							<div class="tabs-icon">
-								<ul>
-									<li id="tab-1" class="active">
-										<span class="ion-briefcase"></span>
-										<h6 class="sm-title">EXPERIENCE</h6>
-									</li>
-									<li id="tab-2">
-										<span class="ion-university"></span>
-										<h6 class="sm-title">EDUCATION</h6>
-									</li>
-								</ul>
-							</div>
 
-							<div class="resume-content">
 
-								<!-- tabs-content -->
-								<div id="tab-1-content" class="item active">
-									<div class="content">
-										<ul>
-											<li>
-												<h6 class="sm-title">Marketing Intern - Sage Intacct</h6>
-												<span class="date">May 2018 - Present</span>
-												<p>Cloud-based SaaS business providing financial accounting software to businesses. Worked in Demand Gen under Nick Ezzo.</p>
-											</li>
-											<li>
-												<h6 class="sm-title">Founder - Boxlet</h6>
-												<span class="date">April 2018 - Present</span>
-												<p>Berkeley-based start-up creating a peer-to-peer network for storage targeted at ameliorating inconvenient lease agreements for college students.</p>
-											</li>
-											<li>
-												<h6 class="sm-title">Business Development Intern - Market Games</h6>
-												<span class="date">January 2018 - April 2018</span>
-												<p>Education tech start-up building business simulation games for secondary and higher education. Worked under Torsor Kotee.</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-
-								<div id="tab-2-content" class="item">
-									<div class="content">
-										<ul>
-											<li>
-												<h6 class="sm-title">University of California, Berkeley</h6>
-												<span class="date">Aug 2016 - May 2020</span>
-												<p>B.S. Business Administration - Haas School of Business <br> B.A. Computer Science - College of Letters of Science</p>
-											</li>
-											<li>
-												<h6 class="sm-title">Chamberlain School of Real Estate</h6>
-												<span class="date">May 2016 - June 2016</span>
-												<p>Real Estate Sales Associate Certification.<br> License issued October 2016.</p>
-											</li>
-											<li>
-												<h6 class="sm-title">Monta Vista High School.</h6>
-												<span class="date">Aug 2012 - June 2016</span>
-												<p>Graduated in top 10% of student body in June 2016.<br>6-Time Purple and Gold Award Recipient</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
+					<div id="boxlet" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="http://www.boxletstorage.com"><img src="img/logos/boxlet.jpg"></a>
 						</div>
-					</div>
-				</div>
-
-
-				<div class="centered top-space">
-					<div class="tabs-icon">
-						<ul>
-							<li id="tab-3" class="custom-gray-button" style="border-right: 1px solid white">
-								<h6 class="sm-title" style="width: 15vw"><i class="icon ion-android-download"></i> Download Resume</h6>
-							</li>
-							<li id="tab-4" class="custom-gray-button" style="border-left: 1px solid white">
-								<h6 class="sm-title" style="width: 15vw;">Download C.V <i class="icon ion-android-download"></i></h6>
-
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ====== End Resume ======  -->
-
-
-
-		<!--====== Clients ======-->
-		<section id="quotes" class="clients section-padding" data-scroll-index="4">
-			<div class="container">
-				<div class="row">
-
-					<!-- clients carousel -->
-					<div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-						<div class="client-say text-center">
-								<h1 style="color: white"> Quotes That Inspire </h1>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#boxlet b {
+										color: #ff8903;
+									}
+								</style>
+								<span class="company">Boxlet</span><br>
 								<hr>
-
-
-							<span class="icon ion-chatboxes"></span>
-
-							<div class="owl-carousel owl-theme">
-
-								<!-- client item -->
-								<div class="client-item">
-									<p><i class="fa fa-quote-left" aria-hidden="true"></i> I Think I Can. I Think I Can . . .<i class="fa fa-quote-right" aria-hidden="true"></i></p>
-									<h6>The Little Engine that Could</h6>
-								</div>
-
-								<!-- client item -->
-								<div class="client-item">
-									<p><i class="fa fa-quote-left" aria-hidden="true"></i> I never look back, darling. It distracts from the now. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-									<h6>Edna - The Incredibles</h6>
-								</div>
-
-								<!-- client item -->
-								<div class="client-item">
-									<p><i class="fa fa-quote-left" aria-hidden="true"></i> Your only limit is your soul. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-									<h6>Remy - Ratatouille</h6>
-								</div>
-
-							</div>
+								<span class="padless position"><b>Co-Founder, Tech Lead</b></span><br>
+								<i><span class="padless term">May 2018 - Present</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									Developed an online marketplace that targeted students with lease terms that
+									prevent subleases to rent space in their apartments for storage. Connected hosts
+									with students needing affordable local summer storage. Acquired 40 customers in
+									first 3 weeks of company life.
+									<br><br>
+									<b>Business Skills Used:</b> Promotional Marketing, Customer Discovery, Design, Ad Campaigns.
+									<br><br>
+									<b>Tech Skills Used:</b> HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase.
+								</span>
+							</p>
 						</div>
 					</div>
+					<div id="sage" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="https://www.sageintacct.com"><img src="img/logos/sage.png"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#sage b {
+										color: #22da27;
+									}
+								</style>
+								<span class="company">Sage Intacct</span><br>
+								<hr>
+								<span class="padless position"><b>Marketing Intern</b></span><br>
+								<i><span class="padless term">May 2018 - August 2018</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									A Saas company providing cloud-based financial accounting software. Created an integration
+									between Marketo and Kenshoo to automate the company's workflow for data learning and reduce
+									human error. Analyzed and created tools for full-funnel analyses to identify bottlenecks and
+									resolve them.
+									<br><br>
+									<b>Business Skills Used:</b> Data analysis, Marketo Marketing Activities, Adwords, Google Analytics, Microsoft Excel.
+									<br><br>
+									<b>Tech Skills Used:</b> HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Assorted APIs.
+								</span>
+							</p>
+						</div>
+					</div>
+					<div id="mgames" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="https://www.marketgames.io"><img src="img/logos/mgames.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#mgames b {
+										color: #2574a9;
+									}
+								</style>
+								<span class="company">Market Games</span><br>
+								<hr>
+								<span class="padless position"><b>Business Development Intern</b></span><br>
+								<i><span class="padless term">January 2018 - April 2018</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									Berkeley-Haas start-up providing business simulation games for higher education.
+									Tested product in business simulations, as well as performed research on
+									higher education institutions through speaking with department heads in order to better
+									design and tailor web-based content.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Content Marketing, Marketing Collateral Design, Market Research, Product testing,
+									knowledge of finance, operations, and marketing channels required for testing.
+									<br><br>
+									<b>Tech Skills Used:</b> HTML, Web Design.
+								</span>
+							</p>
+						</div>
+					</div>
+					<div id="campaign" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="http://sharmaishan.com/campaign/campaign.html"><img src="img/logos/campaign.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#campaign b {
+										color: #030d73;
+									}
+								</style>
+								<span class="company">Ishan for Senate</span><br>
+								<hr>
+								<span class="padless position"><b>Campaign Manager</b></span><br>
+								<i><span class="padless term">Feb 2018 - April 2018</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									Senate Campaign running on three platforms: Improving transportation on campus,
+									increasing accessibilty of resources for start-ups, and creating more opportunities for
+									professional development. Led much of the creative process automated email farming to amass
+									over 400 votes.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Digital Video Production, Speech/Script writing.
+									<br><br>
+									<b>Tech Skills Used:</b> HTML, CSS, JS, Responsive Web Design, Bash Scripting, System Macros, Final Cut Pro.
+								</span>
+							</p>
+						</div>
+					</div>
+
 				</div>
-			</div>
-		</section>
-		<!--====== End Clients ======-->
+				<div class="row">
 
-		<!--====== UPDATES ======-->
-		<section id="updates" class="blog section-padding" data-scroll-index="6">
-			<div class="container">
-
-				<div class="section-head">
-					<h3>Latest Spotlights</h3>
+					<div id="lsvp" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="https://lsvp.com"><img src="img/logos/lightspeed.png"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#lsvp b {
+										color: #ed6d5b;
+									}
+								</style>
+								<span class="company">Lightspeed</span><br>
+								<hr>
+								<span class="padless position"><b>Summer Fellow</b></span><br>
+								<i><span class="padless term">June 2017 - August 2017</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									One of the world’s leading VC firms, annually inviting college startups to become fellows and grow their businesses.
+									Awarded $65K grant for Memory Labs.
+									Launched 3 marketing initiatives built on on discussions with partners and assignments that taught me more about customer discovery, financing, marketing, and pitching.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Customer Assurance, Decking.
+									<br><br>
+									<b>Tech Skills Used:</b> HTML, CSS, JS, Voice APIs, Hardware Configuration.
+								</span>
+							</p>
+						</div>
+					</div>
+					<div id="memlabs" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="http://memory-labs.com/"><img src="img/logos/memlabs.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#memlabs b {
+										color: #0b588a;
+									}
+								</style>
+								<span class="company">Memory Labs</span><br>
+								<hr>
+								<span class="padless position"><b>Co-Founder, CFO</b></span><br>
+								<i><span class="padless term">February 2017 - December 2017</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									Berkeley-based startup developing a voice-based AI assistant for the Alzheimer’s & Dementia community.
+									Increased market segment awareness through outreach and marketing strategy. Improved product-market fit
+									using data from customer conversations.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Customer Assurance, Decking.
+									<br><br>
+									<b>Tech Skills Used:</b> HTML, CSS, JS, Voice APIs, Hardware Configuration.
+								</span>
+							</p>
+						</div>
+					</div>
+					<div id="intero" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="http://ajaymerchia.realscout.com/"><img src="img/logos/intero.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#intero b {
+										color: #57104b;
+									}
+								</style>
+								<span class="company">Intero</span><br>
+								<hr>
+								<span class="padless position"><b>Real Estate Agent</b></span><br>
+								<i><span class="padless term">October 2016 - Present</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									As a real estate agent with Intero, I helped buyers and sellers with their real estate needs. Performing
+									analyses and creating reports, I was able to consistently and accurately forecast home selling prices. Over
+									the course of one summer, I was able to put together a strong team across escrow, lending, and insurance agents
+									to cut closing periods by 25% over industry average.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Data analysis, Marketing, Public Speaking.
+									<br><br>
+									<b>Tech Skills Used:</b> Adobe Photoshop, Property Web Design, Offer Packet Design.
+								</span>
+							</p>
+						</div>
+					</div>
+					<div id="agf" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="https://ucbvotes.weebly.com"><img src="img/logos/agf.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#agf b {
+										color: #1e4280;
+									}
+								</style>
+								<span class="company">AGF</span><br>
+								<hr>
+								<span class="padless position"><b>Campus Ambassador</b></span><br>
+								<i><span class="padless term">September 2016 - Apil 2017</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									As a Vote Everywhere Ambassador of the Andrew Goodman Foundation, I worked to host California
+									Secretary of State Alex Padilla, to speak on the importance of voter registration to over 400
+									students. I also arranged for ballot boxes at Cal and obtained NSLVE enrollment for the school.
+									Register 200+ students for the 2016 election.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Networking, Event Planning, Writing.
+									<br><br>
+									<b>Tech Skills Used:</b> Web Design.
+								</span>
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-4">
-						<div class="item text-center">
-							<div class="img-post">
-								<a href="blog.html">
-									<img src="img/spotlight/entre.png" alt="image">
-								</a>
-							</div>
-							<div class="cont-post">
-								<a href="#">
-									<span class="tag">Entrepreneurship</span>
-								</a>
-								<a href="blog.html">
-									<h6>Boxlet</h6>
-								</a>
-								<p>3 weeks until second year at Cal is over? Why not make a start-up? <br>The Peer-to-Peer Storage Solution.</p>
-								<a href="blog-single.html">
-									<span class="botn">Box-what?</span>
-								</a>
-							</div>
+
+					<div id="azaad" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="https://www.facebook.com/ucbazaad/"><img src="img/logos/azaad.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#azaad b {
+										color: #f5c933;
+									}
+								</style>
+								<span class="company">Azaad</span><br>
+								<hr>
+								<span class="padless position"><b>Captain, Props, Finance</b></span><br>
+								<i><span class="padless term">September 2016 - Present</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									UC Berkeley Azaad is a nationally-ranked collegiate fusion dance team. While a large part of
+									my time with this organization goes towards dancing, I also developed a leadership skills as a captain,
+									learning to lead and connect efforts across departments. I also managed and fundraised a budget of $17K,
+									worked out logistics for our props, and led digital recruiting efforts.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Leadership, Fundraising, Promotional Marketing.
+									<br><br>
+									<b>Tech Skills Used:</b> Final Cut Pro, Motion, Excel, Adobe Audition.
+								</span>
+							</p>
 						</div>
 					</div>
+					<div id="freev" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="http://freeventures.org/"><img src="img/logos/freev.png"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#freev b {
+										color: #32004b;
+									}
+								</style>
+								<span class="company">Free Ventures</span><br>
+								<hr>
+								<span class="padless position"><b>Spring 2017 Batch</b></span><br>
+								<i><span class="padless term">February 2017 - May 2017</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									Berkeley-based accelerator program located at The House providing students with the resources to grow their ideas and innovate.
+									I attended weekly networking sessions with professionals in the technology and medical sectors for industry perspective as a part
+									of Memory Labs. Fine-tuned the craft of creating pitch decks with program coordinators with over 40 hours of decking, and ended up pitching
+									to VC firms, including Grelock Partners, Sequoia, and KPCB.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Decking, Networking.
 
-					<div class="col-md-4">
-						<div class="item text-center">
-							<div class="img-post">
-								<a href="blog.html">
-									<img src="img/spotlight/life.png" alt="image">
-								</a>
-							</div>
-							<div class="cont-post">
-								<a href="#">
-									<span class="tag">Life</span>
-								</a>
-								<a href="blog.html">
-									<h6>Lessons from Two Years at College</h6>
-								</a>
-								<p>Ya right. What wisdom does a 19-year-old have to share? You'd be surprised how much can go wrong and right in a year.</p>
-								<a href="blog-single.html">
-									<span class="botn">Dive in!</span>
-								</a>
-							</div>
+								</span>
+							</p>
 						</div>
 					</div>
-
-					<div class="col-md-4">
-						<div class="item text-center">
-							<div class="img-post">
-								<a href="blog.html">
-									<img src="img/spotlight/dance.png" alt="image">
-								</a>
-							</div>
-							<div class="cont-post">
-								<a href="#">
-									<span class="tag">Dance</span>
-								</a>
-								<a href="blog.html">
-									<h6>The Priya S. Choreo Project</h6>
-								</a>
-								<p>Q: What happens when 3 generations of Azaad get together? <br> A: Sheer Awesome.</p>
-								<a href="blog-single.html">
-									<span class="botn">Check us out!</span>
-								</a>
-							</div>
+					<div id="asuc" class="col-md-3 padding-def bottom-space">
+						<div>
+							<a href="http://ajaymerchia.realscout.com/"><img src="img/logos/asuc.jpg"></a>
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#asuc b {
+										color: #183e6c;
+									}
+								</style>
+								<span class="company">ASUC Offices</span><br>
+								<hr>
+								<span class="padless position"><b>Resources Coordinator</b></span><br>
+								<i><span class="padless term">October 2016 - January 2017</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									I was a part of both Senator Chris Yamas' office, as well as the Financial Wellness Commission.
+									During my time, I worked on an ASUC transfer student amendment which would increase their representation
+									in student government. Additionally, I wrote, lobbied, and got a bill passed that would require that
+									incoming students complete a basic financial literacy module.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Networking, Public Speaking.
+								</span>
+							</p>
+						</div>
+					</div>
+					<div id="peercourt" class="col-md-3 padding-def bottom-space">
+						<div>
+							<img src="img/logos/scales.jpg">
+						</div>
+						<div class="top-space centered">
+							<p class="scrunch">
+								<style>
+									#peercourt b {
+										color: #00811e;
+									}
+								</style>
+								<span class="company">Peer Court</span><br>
+								<hr>
+								<span class="padless position"><b>Juvenile Attorney</b></span><br>
+								<i><span class="padless term">March 2014 - April 2017</span><br></i>
+								<hr>
+								<span style="text-align: justify">
+									Justice program with County’s Probation Department working to process dispositional hearings
+									for minors guilty of misdemeanors. Helped 15+ minors restore themselves and community.
+									 Met with offenders/victims to obtain mitigatory/exacerbating circumstances not in the JCR.
+									 Determined interventions best suited to stop crime pattern development through restorative justice.
+									 Drafted and conducted opening/closing statements, direct/cross exams before a jury of peers and a
+									 Superior Court Judge.
+									<br><br>
+									<b>Business Skills Used:</b>
+									Public Speaking.
+								</span>
+							</p>
 						</div>
 					</div>
 				</div>
+
+
+
 			</div>
 		</section>
 		<!--====== End Blog ======-->

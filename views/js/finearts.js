@@ -63,8 +63,8 @@ $(function() {
 
     // typejs
     $('.header .caption h3').typed({
-        strings: 	["Realtor."],
-        loop: false,
+        strings: 	["Dancer.", "Videographer.", "Writer."],
+        loop: true,
         startDelay: 1000,
         backDelay: 1000,
         typeSpeed: 30,
